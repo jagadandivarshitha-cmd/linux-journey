@@ -1,0 +1,1 @@
+Day 2 - File operations: cat, less, head, tail, find, grep

@@ -1,0 +1,1 @@
+Day 1 - Navigation basics: pwd, ls, cd, mkdir, cp, mv, rm
