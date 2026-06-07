@@ -1,0 +1,1 @@
+Day 3 - learned file permissions (rwx, chmod 755/644/600), users (whoami, sudo, chown), wrote first bash script, set up Git & GitHub with SSH, made first commit and push - code is live on internet!
