@@ -1,0 +1,1 @@
+Day 5 - learned shell scripting: variables, if/else, loops, built custom terminal greeter that runs on startup
