@@ -1,0 +1,13 @@
+Day 4 - processes and monitoring:
+- ps aux = see all running processes
+- PID = unique ID for every process
+- VSZ = memory reserved, RSS = memory actually used
+- TTY = which terminal runs the process (? = background)
+- top/htop = live system monitor
+- kill PID = politely stop process
+- kill -9 PID = force kill, no mercy
+- Terminated = process is completely gone
+- free -h = RAM usage
+- df -h = disk space
+- Zombie = process finished but not cleaned up yet
+- First thing in DevOps when something breaks = CHECK LOGS
