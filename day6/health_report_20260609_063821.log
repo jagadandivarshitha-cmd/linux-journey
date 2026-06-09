@@ -1,0 +1,29 @@
+=============================================
+     SYSTEM HEALTH REPORT
+     Generated: Tue Jun  9 06:38:21 UTC 2026
+=============================================
+ HOST     : sweety
+ UPTIME   : up 1 hour, 41 minutes
+---------------------------------------------
+ CPU LOAD :  0.00, 0.00, 0.00
+ RAM      : 490Mi used of 7.6Gi (6%)
+ DISK     : 1% used on /
+---------------------------------------------
+ TOP 5 LARGEST FILES IN /var/log:
+  1. 8.1M  /var/log/journal/593591339fe54acebbbd842f6a1ae60f/system@0006537b7896c4c7-05db82dbdd3f1c34.journal~
+  2. 8.1M  /var/log/journal/593591339fe54acebbbd842f6a1ae60f/system@0006537b4595e059-affb98a0cbf85ab5.journal~
+  3. 8.0M  /var/log/journal/593591339fe54acebbbd842f6a1ae60f/user-1001@000653caf7c2583d-6492d112905c2d26.journal~
+  4. 8.0M  /var/log/journal/593591339fe54acebbbd842f6a1ae60f/user-1001@000653c9cbe1d898-57c3646c6c250131.journal~
+  5. 8.0M  /var/log/journal/593591339fe54acebbbd842f6a1ae60f/user-1001@000653c965a76267-047005134f1c0374.journal~
+---------------------------------------------
+ RUNNING PROCESSES : 29
+ TOP 5 PROCESSES BY MEMORY:
+  PID   %MEM  COMMAND
+  213    0.2   /usr/bin/python3
+  52     0.2   /usr/lib/systemd/systemd-journald
+  1341   0.1   /usr/libexec/wsl-pro-service
+  1      0.1   /sbin/init
+  165    0.1   /usr/lib/systemd/systemd-resolved
+---------------------------------------------
+ STATUS: ALL SYSTEMS HEALTHY ✅
+=============================================
