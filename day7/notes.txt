@@ -1,1 +1,37 @@
-Day 7 - learned grep (search logs), awk (extract CSV columns), sed (find and replace) - practiced on real worldbanc bank files
+Day 7 - Text Processing Power Tools (grep, awk, sed)
+Practiced on real worldbanc bank files
+
+GREP - search inside files:
+grep "ERROR" file          → find ERROR lines
+grep -c "ERROR" file       → count matches
+grep -r "ERROR" folder/    → search all files recursively
+grep -v "INFO" file        → lines that DON'T match
+grep -n "ERROR" file       → show line numbers
+grep -i "error" file       → case insensitive search
+grep -A 2 -B 2 "error"     → show 2 lines before and after match
+
+AWK - extract columns:
+awk '{print $1}' file           → print column 1
+awk -F',' '{print $1}' file     → comma separated (CSV)
+awk 'NR>1 {print $1}' file      → skip header row
+awk 'NR==2 {print $5}' file     → row 2, column 5
+awk '{count++} END {print count}' → count all lines
+awk '$1=="root" {print $0}'     → filter by column value
+
+SED - find and replace:
+sed 's/old/new/g' file          → replace all occurrences
+sed -i 's/old/new/g' file       → save changes to file
+sed '1d' file                   → delete first line
+sed -n '5p' file                → print line 5 only
+sed -n '1,5p' file              → print lines 1 to 5
+sed '/error/d' file             → delete lines with word
+
+COMBINE ALL THREE (real power):
+grep "ERROR" file | awk '{print $1, $2}' | sed 's/ERROR/ERR/'
+
+WORLDBANC TASKS PRACTICED:
+- Searched errors across 6 real log files (10,000 lines each)
+- Extracted customer names and emails from contacts CSV
+- Counted errors vs warnings across all logs
+- Found security scan events across all log files
+- Ran warn.sh script on transaction files
