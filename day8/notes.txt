@@ -1,0 +1,9 @@
+Day 8 - Networking and SSH
+- IP address = unique address for device on network
+- Port = specific door on that address (22=SSH, 80=HTTP, 443=HTTPS, 53=DNS)
+- ip addr show = see network interfaces
+- ping = test if server is reachable
+- ssh user@ip = remote login to server
+- scp file user@ip:/path = copy file to server
+- ssh-keygen + ssh-copy-id = passwordless SSH login
+- Practiced SSH into localhost (127.0.0.1) with greeter running on login
