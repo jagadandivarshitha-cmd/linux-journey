@@ -1,0 +1,11 @@
+Day 9 - Cron Jobs and Automation
+- cron = schedule scripts to run automatically
+- crontab -l = list current cron jobs
+- crontab -e = edit cron jobs
+- Syntax: minute hour day month weekday command
+- * * * * * = every minute
+- 0 9 * * * = every day at 9 AM
+- */5 * * * * = every 5 minutes
+- 0 0 * * 0 = every Sunday midnight
+- Tested: script ran automatically every minute, verified in system log
+- sudo grep CRON /var/log/syslog = view cron execution history
