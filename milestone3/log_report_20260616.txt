@@ -1,0 +1,22 @@
+================================================
+        WORLDBANC LOG ANALYSER REPORT
+        Generated: Tue Jun 16 2026
+================================================
+ Log file    : /home/varshitha/worldbanc/private/logs/2024-01-16.log
+ Total lines : 10000
+------------------------------------------------
+ ERROR count   : 2427
+ WARNING count : 2508
+ INFO count    : 2527
+ ALERT count   : 2537
+------------------------------------------------
+ TOP 5 MOST COMMON ERROR MESSAGES:
+  1. 297 - Network connection re-established.
+  2. 286 - Database connection established successfully.
+  3. 276 - Server shutdown complete.
+  4. 270 - Server rebooting.
+  5. 267 - Server startup complete. System ready.
+------------------------------------------------
+------------------------------------------------
+ STATUS: ⚠️  High error rate detected! (24%)
+================================================
